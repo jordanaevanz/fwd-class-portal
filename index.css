@@ -1,0 +1,140 @@
+body{
+    background-color:black;
+}
+.className{
+    color: #ED2987;
+    font-family: "inter";
+    font-weight: 700;
+    margin: 3% 0 0 3%;
+    font-size: 1.5rem;
+}
+.personalLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+}
+.options{
+    display: flex;
+    margin: 8% 25% 0 25%;
+    justify-content: center;
+}
+
+.headers{
+    display: flex;
+    margin: 3% 0 0 8%;
+}
+
+.lab{
+    padding: 23%;
+    color:white;
+    font-family: "inter";
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.proj{
+    padding: 23%;
+    color:white;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.lab:hover{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img/hoverLab.png");
+}
+
+.lab:hover a {
+color: #00000000;
+}
+
+.proj:hover{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img/hoverProj.png");
+}
+
+.proj:hover a {
+    color: #00000000;
+    }
+
+.listOfAssn{
+    color:white;
+    font-family: "inter";
+    font-weight: 500;
+    margin: 3% 8% 0 8%;
+}
+
+li{
+    padding:1.5%;
+    /* between the items */
+    font-size: 1.3em;
+}
+
+.proj:hover a {
+    color: #00000000;
+    }
+
+
+.specPage{
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 2rem;
+    color:white;
+}
+
+.backB{
+    width: 60%;
+}
+
+.icon{
+    width: 5%;
+    /* background-color: white; */
+    margin: 2% 0 0 2%;
+}
+
+.blog{
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 1.3rem;
+    color:white;
+    padding: 8%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover, li:hover a{
+    color: #ED2987;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    .options {
+      flex-direction: column;
+      align-items: center;
+      margin: 15% 25% 15% 25%;
+    }
+    li{
+        font-size: 1em;
+        padding:2%;
+    }
+    .lab{
+        padding: 20%;
+    }
+    .proj{
+        padding: 20%;
+    }
+    .personalLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 23%;
+    }
+  }
